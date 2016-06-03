@@ -5,6 +5,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Redis", "Redis", "{E14FDCC6
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisTest", "Redis\RedisTest\RedisTest.csproj", "{1F01A244-391E-4B81-BA42-0C70DFC18E6A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MongoDB", "MongoDB", "{2B072525-AF34-4701-BAC6-009AFEC4CECA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoDB", "MongoDB\MongoDB.csproj", "{EAD03363-2379-4E22-AC30-2F416864E25F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,11 +19,16 @@ Global
 		{1F01A244-391E-4B81-BA42-0C70DFC18E6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F01A244-391E-4B81-BA42-0C70DFC18E6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F01A244-391E-4B81-BA42-0C70DFC18E6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAD03363-2379-4E22-AC30-2F416864E25F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAD03363-2379-4E22-AC30-2F416864E25F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAD03363-2379-4E22-AC30-2F416864E25F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAD03363-2379-4E22-AC30-2F416864E25F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{1F01A244-391E-4B81-BA42-0C70DFC18E6A} = {E14FDCC6-3665-4281-907F-422A6DBC71C9}
+		{EAD03363-2379-4E22-AC30-2F416864E25F} = {2B072525-AF34-4701-BAC6-009AFEC4CECA}
 	EndGlobalSection
 EndGlobal
